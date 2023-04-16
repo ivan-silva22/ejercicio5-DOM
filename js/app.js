@@ -23,8 +23,8 @@ function actualizarCronometro() {
   
 
   let tiempo = (horas < 10 ? "0" + horas : horas) + ":" + 
-              (minutos < 10 ? "0" + minutos : minutos) + ":" + 
-              (segundos < 10 ? "0" + segundos : segundos);
+    (minutos < 10 ? "0" + minutos : minutos) + ":" + 
+    (segundos < 10 ? "0" + segundos : segundos);
   
   document.getElementById("cronometro").innerHTML = tiempo;
 }
